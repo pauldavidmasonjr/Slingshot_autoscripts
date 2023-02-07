@@ -1,0 +1,16 @@
++0 -> No Split
++1 -> Sun-Thu +1,   Fri   +3, Sat +2 -> If field reudction needed and no sundays,
++2 -> Sun-Wed +2, Thu-Fri +4, Sat +3    combine Sat appointment field into Sun-Thu
++3 -> Sun-Tue +3, Wed-Fri +5, Sat +4    and if no weekends, All +1 works too.
++4 -> Sun-Mon +4, Tue-Fri +6, Sat +5
++5 -> All +7
+Sun-Thu -> Not Friday, Saturday
+Sun-Wed -> Not Thursday, Friday, Saturday
+Sun-Tue -> Not Wednesday, Thursday, Friday, Saturday
+Sun-Mon -> Not Tuesday, Wednesday, Thursday, Friday, Saturday
+Tue-Fri -> Not Sunday, Monday, Saturday
+Wed-Fri -> Not Sunday, Monday, Tuesday, Saturday
+Thu-Fri -> Not Sunday, Monday, Tuesday, Wednesday, Saturday
+
+
+
